@@ -1,7 +1,7 @@
 {
-    "name":        "arcanedev/support",
-    "description": "ARCANEDEV Support Helpers",
-    "keywords":    ["arcanedev", "arcanesoft", "support", "laravel"],
+    "name":        "buriti8/support",
+    "description": "Fork from arcanedev/support. ARCANEDEV Support Helpers",
+    "keywords":    ["buriti8", "arcanedev", "arcanesoft", "support", "laravel"],
     "homepage":    "https://github.com/ARCANEDEV/Support",
     "authors": [
         {
@@ -14,13 +14,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^11.0",
-        "illuminate/support": "^11.0"
+        "illuminate/contracts": "^12.0",
+        "illuminate/support": "^12.0"
     },
     "require-dev": {
-        "laravel/framework": "^11.0",
-        "orchestra/testbench-core": "^9.0",
-        "phpunit/phpunit": "^10.5"
+        "laravel/framework": "^12.0",
+        "orchestra/testbench-core": "^10.0",
+        "phpunit/phpunit": "^11.0"
     },
     "autoload": {
         "psr-4": {
@@ -37,11 +37,6 @@
         "test": "phpunit --colors=always",
         "test:dox": "phpunit --testdox --colors=always",
         "test:cov": "phpunit --coverage-html coverage"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "11.x-dev"
-        }
     },
     "config": {
         "sort-packages": true
